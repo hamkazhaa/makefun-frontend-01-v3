@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>make.fun lite</title>
+<meta name="description" content="A fast read-only frontend for make.fun's public API: the bounty board, bounty pages, leaderboards and public profiles.">
+<link rel="stylesheet" href="/style.css">
+<script>window.__shotReady = false;</script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/">make.fun <span>lite</span></a>
+  <nav>
+    <a href="#/">Board</a>
+    <a href="https://make.fun" target="_blank" rel="noopener">make.fun ↗</a>
+  </nav>
+</header>
+<main id="view" class="wrap"></main>
+<footer class="wrap">
+  <p id="stats">Connecting to make.fun…</p>
+  <p>Read-only · live data from <a href="https://make.fun">make.fun</a>'s public API · no sign-in · answers cached for 60 s and revalidated with ETags</p>
+</footer>
+<script type="module" src="/main.js"></script>
+</body>
+</html>
